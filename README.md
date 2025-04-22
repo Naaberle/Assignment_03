@@ -53,23 +53,39 @@ According to the Gun Violence Archive, an online archive of gun violence inciden
 ## Methodology 
 As a first step, I collected and organized mass shooting data for the 2024 calendar year from the Gun Violence Archive [2], accessed originally through Wikipedia [5]. This included the number of shootings, total injuries and deaths, and the number of days without a mass shooting for each month.
 
-Insert Screenshot of Graph Data
+Figure 2. Chart of the 2024 Mass Shooting statistics.
 
 I used this data as the main inputs to a parametric model in Grasshopper. Each of the twelve sculptures was generated from the same base algorithmic design: a set of two cylinders interlocked at the base, but still allowing for rotation. I wanted to encode the data from the 2024 shootings into specific parameters that would carry throughout each sculpture. 
 
 The heights of the sculptures are reflective of the total number of deaths in each month, normalized between 8” for the highest death count and 3” for the lowest death count. Both inner and outer rings have a number of straight vertical pillars and pillars that rotate around the cylindrical shape based on a rotational value. 
 
-The number of vertical pillars on each inner ring corresponds to the ratio of deaths in that month to total deaths in 2024, and the rotational value of the twisted spokes is total wounded for that month compared to total wounded and normalized to a rotational value of 180. The number of vertical pillars on each outer ring corresponds to the ratio of shootings in that month to total shootings in 2024, and the rotational value of the twisted spokes is the number of days without a shooting in that month and normalized to a rotational value of -180. The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
+The number of vertical pillars on each inner ring corresponds to the ratio of deaths in that month to total deaths in 2024, and the rotational value of the twisted spokes is total wounded for that month compared to total wounded and normalized to a rotational value of 180.
+
+Figure 3. Inner Pillar and verticals next to input fields
+
+The number of vertical pillars on each outer ring corresponds to the ratio of shootings in that month to total shootings in 2024, and the rotational value of the twisted spokes is the number of days without a shooting in that month and normalized to a rotational value of -180.
+
+Figure 4. Outer pillar and verticals next to input fields
+
+The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
+
+Figure 5. Image of the input data fields minimum values next to a specific month.
 
 I deliberately avoided using overt graphing or labeling, as the intent was to present the data in a form that emphasized presence over explanation, in line with the symbolic representation definition. After the final geometry for each month was generated it was baked in Rhino and 3D printed.
 
 The last step was to create a base design that allowed me to mount a battery pack and 6v 5rpm turntable motor in it to mount each upper part to. The outer ring mounts to the base with 8 alignment pins and ensures the inner ring can rotate freely when the motor is powered. A 3” LED puck is then placed in the center and the sculpture is ready to be installed along the other 11.
+
+Figure 6. Images of the battery pack and motor alignment roughs
 
 When all 12 are placed in proximity to one another, walking between them and engaging with the shadows places you amidst all of the loss due to mass shootings in 2024. 
 
 <!-- Results and Future Work -->
 ## Results and Future Work
 The twelve individual sculptures for each month have been fully designed, fabricated, and tested individually. While the full installation has not yet been fully installed in a final venue, I’ve tested six of the units running simultaneously, and the results align closely with my vision and goals. The slow, overlapping motion and cast shadows work as intended, creating a layered and immersive experience that invites engagement.
+
+Figure 7. Image of all 12
+
+You can view a video of the six test units running <a href="https://youtu.be/fEp6EiAOTs8">here</a>.
 
 The 3D interlocking rings function mostly as intended, though there is the occasional snag or slowdown of the motor. More investigation on the cause of this will be needed in the future. Additionally, I may need to look at using four AA batteries instead of two as the motor tends to stall even under minimal load. I plan to also look into the possibility of using Lithium-ion polymer batteries in the future, as they last longer and would be easier to recharge for prolonged displays of the work. Once a full installation space is available, I plan to finalize the layout to best encourage viewer movement and interaction.
 
@@ -128,9 +144,7 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig4]: images/fig4.png
 [images-fig5]: images/fig5.png
 [images-fig6]: images/fig6.png
-[images-fig7a]: images/fig7a.png
-[images-fig7b]: images/fig7b.png
-[images-fig8]: images/fig8.png
+[images-fig7]: images/fig7.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
