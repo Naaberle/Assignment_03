@@ -83,7 +83,8 @@ When all 12 are placed in proximity to one another, walking between them and eng
 ## Results and Future Work
 The twelve individual sculptures for each month have been fully designed, fabricated, and tested individually. While the full installation has not yet been fully installed in a final venue, I’ve tested six of the units running simultaneously, and the results align closely with my vision and goals. The slow, overlapping motion and cast shadows work as intended, creating a layered and immersive experience that invites engagement.
 
-Figure 7. Image of all 12
+[![Assignment_03][images-fig7]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig7.png?)
+Figure 7. All twelve months on display in a zig zag pattern, with January in the back left, and December in the front right.
 
 You can view a video of the six test units running <a href="https://youtu.be/fEp6EiAOTs8">here</a>.
 
