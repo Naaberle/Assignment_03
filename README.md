@@ -51,23 +51,21 @@ According to the Gun Violence Archive, an online archive of gun violence inciden
 
 <!-- Methodology -->
 ## Methodology 
-Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes used for both disks.
+As a first step, I collected and organized mass shooting data for the 2024 calendar year from the Gun Violence Archive [2], accessed originally through Wikipedia [5]. This included the number of shootings, total injuries and deaths, and the number of days without a mass shooting for each month.
 
-[![Assignment_02][images-fig3]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig3.png?)
-Figure  3. Each disk is composed of the same inner and outer structure, as well as 5 parameters the user can adjust to create each disk.
+Insert Screenshot of Graph Data
 
-I chose radial movement for two key reasons. First, motorizing one of the disks to test various speeds would be much simpler than engineering a back-and-forth mechanism for lateral movement. Second, the parametric design process was more straightforward with a spoke-based system than with a grid-like structure, which would have been more complex to manipulate parametrically for generating the Moiré effect.
+I used this data as the main inputs to a parametric model in Grasshopper. Each of the twelve sculptures was generated from the same base algorithmic design: a set of two cylinders interlocked at the base, but still allowing for rotation. I wanted to encode the data from the 2024 shootings into specific parameters that would carry throughout each sculpture. 
 
-The parametric design of the spokes begins with copies of the inner and outer rings used for the walls. These curves are subdivided into equal segments with BaseCurves—one of the adjustable parameters provided in the inputs. The resulting points are then moved upwards by half the thickness of the outer wall via AdjustedStartingPts. Straight lines are drawn between corresponding points on the inner and outer curves to form the base of each spoke (MainSpokes), which are then further subdivided based on user input.
+The heights of the sculptures are reflective of the total number of deaths in each month, normalized between 8” for the highest death count and 3” for the lowest death count. Both inner and outer rings have a number of straight vertical pillars and pillars that rotate around the cylindrical shape based on a rotational value. 
 
-[![Assignment_02][images-fig4]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig4.png?)
-Figure 4. shows the subdivision of the outer curves, the creation of the spokes, the zigzag series, the curve offset, and ends with the final NURBS curves for the center of each spoke.
+The number of vertical pillars on each inner ring corresponds to the ratio of deaths in that month to total deaths in 2024, and the rotational value of the twisted spokes is total wounded for that month compared to total wounded and normalized to a rotational value of 180. The number of vertical pillars on each outer ring corresponds to the ratio of shootings in that month to total shootings in 2024, and the rotational value of the twisted spokes is the number of days without a shooting in that month and normalized to a rotational value of -180. The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
 
-The CurveOffset and ZigZagSeries sections of the algorithm generate two things: a set of points created by subdividing each spoke line, and a corresponding series of offset values. Using these, a NURBS curve is generated, with the user able to control the complexity of the curve—from 0 (straight) to 5 (fully smooth).
-Finally, the FinalSweep section creates a square at the base (center side) of each spoke, aligns it to the curve’s tangent, and sweeps it outward along the NURBS path. The resulting spokes are then combined with the inner and outer walls, capped, and can be baked into Rhino for export.
+I deliberately avoided using overt graphing or labeling, as the intent was to present the data in a form that emphasized presence over explanation, in line with the symbolic representation definition. After the final geometry for each month was generated it was baked in Rhino and 3D printed.
 
-[![Assignment_02][images-fig5]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig5.png?)
-Figure 5. shows the final calculations for the square that is swept along the spoke as well as the final brep shape that is created and assembled by the rest of the algorithm.
+The last step was to create a base design that allowed me to mount a battery pack and 6v 5rpm turntable motor in it to mount each upper part to. The outer ring mounts to the base with 8 alignment pins and ensures the inner ring can rotate freely when the motor is powered. A 3” LED puck is then placed in the center and the sculpture is ready to be installed along the other 11.
+
+When all 12 are placed in proximity to one another, walking between them and engaging with the shadows places you amidst all of the loss due to mass shootings in 2024. 
 
 
 <!-- Results and Future Work -->
