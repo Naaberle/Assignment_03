@@ -53,7 +53,8 @@ According to the Gun Violence Archive, an online archive of gun violence inciden
 ## Methodology 
 As a first step, I collected and organized mass shooting data for the 2024 calendar year from the Gun Violence Archive [2], accessed originally through Wikipedia [5]. This included the number of shootings, total injuries and deaths, and the number of days without a mass shooting for each month.
 
-Figure 2. Chart of the 2024 Mass Shooting statistics.
+[![Assignment_03][images-fig2]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig2.png?)
+Figure 2. 2024 US mass shooting statistics by month per the Gun Violence Archive.
 
 I used this data as the main inputs to a parametric model in Grasshopper. Each of the twelve sculptures was generated from the same base algorithmic design: a set of two cylinders interlocked at the base, but still allowing for rotation. I wanted to encode the data from the 2024 shootings into specific parameters that would carry throughout each sculpture. 
 
