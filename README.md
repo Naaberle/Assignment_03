@@ -41,10 +41,13 @@ Destructive Interference is a data visualization installation that visualizes th
 ## Introduction and Related Works
 In a previous project (link to Assignment 2) I developed a parametrically designed Moire pattern generator in Grasshopper. I wanted to take that process and expand upon it, specifically in the direction of application to physical sculpture. Big data has been integrated into contemporary sculpture in a variety of ways and methods [1] and this process opens up a new avenue for me to work within, using data as its own medium.
 
-I chose to create a data visualization sculpture that falls into the category of symbolic representation [4] according to the writings of Andrew Vande Moore & Stephanie Patel who’s paper on the categorization of physical visualization of information guided my design choices. Symbolic representation is defined by them “to be works characterized by a form-finding approach that employs a so-called arbitrary data-mapping approach”. I chose this method as I wanted to visually disentangle the topic of mass shootings with the work. I wanted people to engage with the work before being presented with the data linked to the creation so they were less likely to disengage as soon as they realized what the subject matter was.
+I chose to create a data visualization sculpture that falls into the category of symbolic representation [4] according to the writings of Andrew Vande Moore & Stephanie Patel who’s paper on the categorization of physical visualization of information guided my design choices. Symbolic representation is defined by them “to be works characterized by a form-finding approach that employs a so-called arbitrary data-mapping approach”.
+
+I chose this method as I wanted to visually disentangle the topic of mass shootings with the work. I wanted people to engage with the work before being presented with the data linked to the creation so they were less likely to disengage as soon as they realized what the subject matter was.
 
 Similar to how I created my previous Moire disks, I designed this project in Grasshopper to be baked in Rhino after the final formulation of each month's data. One challenge of this was going to be making the design as minimal as possible as to not draw attention away from the aforementioned meaning. My goal was to create a print in place upper piece that didn’t require any after assembly, but still allowed for rotation and came across those that had been 3D printing with interlocking parts [3]. 
-According to the Gun Violence Archive, an online archive of gun violence incidents collected from over 7,500  law enforcement, media, government and commercial sources daily[2], there were 586 mass shootings in 2024; resulting in a total death count of 711 individuals. 
+
+According to the Gun Violence Archive, an online archive of gun violence incidents collected from over 7,500  law enforcement, media, government and commercial sources daily [2], there were 586 mass shootings in 2024; resulting in a total death count of 711 individuals. 
 
 <!-- Methodology -->
 ## Methodology 
