@@ -77,7 +77,9 @@ For future projects I’d like to explore responsive elements tied to real-time 
 
 <!-- Conclusion -->
 ## Conclusion
-Creating non-symmetrical pairs of parametrically designed radial geometries, 3D printing them, and introducing rotation offers a novel methodology for using overlap as a medium to explore the requirements for producing a Moiré effect in physical 3D applications. Through analyzing this process and a range of generative outputs, I found that there is a threshold below which a Moiré pattern cannot be formed; identifying that threshold may offer a valuable new experiment and direction. These methods can be extended to other 2D optical illusions not yet fully understood in 3D, opening a wide array of new visual possibilities.
+This project was something I’ve wanted to do for a long time, taking concrete data and using it to inform the message and form of an installation. In this case it has the added benefit of being something emotionally charged and allows for viewers to hold space for both reflection and discomfort. The two most memorable moments were when my print in place interlocking rings functioned as intended and I just had to dial in the tolerances. Second was when the first full sculpture (January) was assembled, powered, and ran as intended; casting an amazing cascade of shadows on my studio walls.
+
+Through this process I learned how to use data to inform the parameters of a sculpture in a meaningful way, as well as how viewers can interact with it once created. My hope is that this work will encourage deeper reflection on statistics that are often overlooked or diminished; and in this specific case to bring more awareness to the toll mass shootings take on the American populace.
 
 <!-- Bibliography -->
 ## Bibliography 
