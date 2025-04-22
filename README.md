@@ -30,7 +30,7 @@
   </p>
 </div>
 
-[![Assignment_02][images-fig1]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig1.png?) <br />
+[![Assignment_03][images-fig1]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig1.png?) <br />
 Figure 1. My parametric algorithm in Grasshopper used to create two radial disks (left), the surfaces in red and baked geometries in white in Rhino (center), and the final 3D printed disks. 
 
 <!-- Abstract -->
