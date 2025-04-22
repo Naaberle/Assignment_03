@@ -39,16 +39,12 @@ Destructive Interference is a data visualization installation that visualizes th
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
-Early works of Op Art date back to the 1930s, but the movement truly gained momentum and developed into its own in the 1960s, with artists such as Jesús Soto, Yaacov Agam, Francisco Sobrino, and many others. As both a movement and a visual medium, I’ve always been fascinated by Op Art and have sought ways to incorporate it into my installation and sculptural works; more recently exploring how to integrate it with digital technologies as part of the creative workflow.
+In a previous project (link to Assignment 2) I developed a parametrically designed Moire pattern generator in Grasshopper. I wanted to take that process and expand upon it, specifically in the direction of application to physical sculpture. Big data has been integrated into contemporary sculpture in a variety of ways and methods [1] and this process opens up a new avenue for me to work within, using data as its own medium.
 
-Optical illusions in 2D space rely on specific rules and visual rhythms to be convincing, but those parameters can shift dramatically, and often unpredictably, when illusions are introduced into 3D space. Recent studies on Geometrical Optical Illusions (GOIs) [2] have proposed mathematical models of low-level visual processing to better understand how perception operates. I chose this project as a way to physically analyze GOIs through the Moiré pattern, a fundamental optical illusion involving 'optical line interference' [3].
+I chose to create a data visualization sculpture that falls into the category of symbolic representation [4] according to the writings of Andrew Vande Moore & Stephanie Patel who’s paper on the categorization of physical visualization of information guided my design choices. Symbolic representation is defined by them “to be works characterized by a form-finding approach that employs a so-called arbitrary data-mapping approach”. I chose this method as I wanted to visually disentangle the topic of mass shootings with the work. I wanted people to engage with the work before being presented with the data linked to the creation so they were less likely to disengage as soon as they realized what the subject matter was.
 
-[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)
-
-Figure  2. Mathematically a Moiré pattern can be defined as a function (M) of position (x) and rotation (α) of two sets of waves (Da, Db), specifically looking at their overlap to identify the Moiré pattern.
-
-Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
-
+Similar to how I created my previous Moire disks, I designed this project in Grasshopper to be baked in Rhino after the final formulation of each month's data. One challenge of this was going to be making the design as minimal as possible as to not draw attention away from the aforementioned meaning. My goal was to create a print in place upper piece that didn’t require any after assembly, but still allowed for rotation and came across those that had been 3D printing with interlocking parts [3]. 
+According to the Gun Violence Archive, an online archive of gun violence incidents collected from over 7,500  law enforcement, media, government and commercial sources daily[2], there were 586 mass shootings in 2024; resulting in a total death count of 711 individuals. 
 
 <!-- Methodology -->
 ## Methodology 
@@ -102,12 +98,15 @@ Creating non-symmetrical pairs of parametrically designed radial geometries, 3D 
 
 <!-- Bibliography -->
 ## Bibliography 
-[1] Samuelle Bourgault, Pilar Wiley, Avi Farber, and Jennifer Jacobs. 2023. CoilCAM: Enabling parametric design for clay 3D printing through an action-oriented toolpath programming system. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 1–16.
+[1] Chowwalit Chookhampaeng, Jiraporn Chano2c, and Hongfei Zhang. 2024. Big Data Integration in Sculpture: A Systematic Review. In Proceedings of the 2024 5th International Conference on Big Data and Social Sciences (ICBDSS 2024). Springer Nature, 434.
 
-[2] Benedetta Franceschiello, Alessandro Sarti, and Giovanna Citti. 2017. Mathematical models of visual perception for the analysis of geometrical optical illusions. Mathematical and Theoretical Neuroscience: Cell, Network and Data Analysis (2017), 135–149.
+[2] Gun Violence Archive. 2024. Gun Violence Archive GVA. United States. Web Archive. Retrieved from the Library of Congress: https://www.loc.gov/item/lcwaN0016293/
 
-[3] Lothar Spillmann. 1993. The perception of movement and depth in moiré patterns. Perception 22, 3 (1993), 287–308.
+[3] Peng Song, Zhongqi Fu, Ligang Liu, and Chi-Wing Fu. 2015. Printing 3D objects with interlocking parts. Computer Aided Geometric Design 35 (2015), 137–148.
 
+[4] Andrew Vande Moere and Stephanie Patel. 2010. The physical visualization of information: Designing data sculptures in an educational context. In Visual information communication. Springer, 1–23.
+
+[5] Wikipedia contributors. 2024. 2024 US mass shooting statistics by month. In Wikipedia: The Free Encyclopedia. Retrieved April 22, 2025 from https://en.wikipedia.org/wiki/Gun_violence_in_the_United_States#Mass_shooting_statistics
 
 <!-- CONTACT -->
 ## Contact
