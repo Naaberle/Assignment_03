@@ -39,7 +39,7 @@ Destructive Interference is a data visualization installation that visualizes th
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
-In a previous project (link to Assignment 2) I developed a parametrically designed Moire pattern generator in Grasshopper. I wanted to take that process and expand upon it, specifically in the direction of application to physical sculpture. Big data has been integrated into contemporary sculpture in a variety of ways and methods [1] and this process opens up a new avenue for me to work within, using data as its own medium.
+In a <a href="https://github.com/Naaberle/Assignment_02">previous project</a> I developed a parametrically designed Moire pattern generator in Grasshopper. I wanted to take that process and expand upon it, specifically in the direction of application to physical sculpture. Big data has been integrated into contemporary sculpture in a variety of ways and methods [1] and this process opens up a new avenue for me to work within, using data as its own medium.
 
 I chose to create a data visualization sculpture that falls into the category of symbolic representation [4] according to the writings of Andrew Vande Moore & Stephanie Patel who’s paper on the categorization of physical visualization of information guided my design choices. Symbolic representation is defined by them “to be works characterized by a form-finding approach that employs a so-called arbitrary data-mapping approach”.
 
