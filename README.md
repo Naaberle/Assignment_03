@@ -70,7 +70,7 @@ Figure 4. Outer pillar and verticals next to input fields
 
 The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
 
-Figure 5. Image of the input data fields minimum values next to a specific month.
+Figure 5. Image of the full test month.
 
 I deliberately avoided using overt graphing or labeling, as the intent was to present the data in a form that emphasized presence over explanation, in line with the symbolic representation definition. After the final geometry for each month was generated it was baked in Rhino and 3D printed.
 
