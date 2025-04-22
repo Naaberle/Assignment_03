@@ -67,31 +67,13 @@ The last step was to create a base design that allowed me to mount a battery pac
 
 When all 12 are placed in proximity to one another, walking between them and engaging with the shadows places you amidst all of the loss due to mass shootings in 2024. 
 
-
 <!-- Results and Future Work -->
 ## Results and Future Work
-The parametric design of the disks functions exactly as intended, producing disks capable of creating a Moiré pattern. However the current system allows for the creation of discs that are so sparse or featureless that they fail to generate any visible Moiré pattern. Future work may include analyzing the full parameter set to identify combinations incapable of producing the desired effect, and removing those from user input options to streamline generation.
+The twelve individual sculptures for each month have been fully designed, fabricated, and tested individually. While the full installation has not yet been fully installed in a final venue, I’ve tested six of the units running simultaneously, and the results align closely with my vision and goals. The slow, overlapping motion and cast shadows work as intended, creating a layered and immersive experience that invites engagement.
 
-[![Assignment_02][images-fig6]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig6.png?)
-Figure 6. shows 4 different spokes generated parametrically but currently unknown if they'd create a Moiré pattern when combined with other disks.
+The 3D interlocking rings function mostly as intended, though there is the occasional snag or slowdown of the motor. More investigation on the cause of this will be needed in the future. Additionally, I may need to look at using four AA batteries instead of two as any sort of load on the motor seems to cause it to stall. I plan to also look into the possibility of using Lithium-ion polymer batteries in the future, as they last longer and would be easier to recharge for prolonged displays of the work. Once a full installation space is available, I plan to finalize the layout to best encourage viewer movement and interaction.
 
-One change I would make in a future iteration is to add spoke width as an adjustable parameter. At present, this value is hard-coded based on the height of the outer wall, limiting flexibility and experimentation.
-
-The results from the discs that do produce the Moiré effect are consistent with expectations. However, the first set I printed did not generate any visible interference, which prompted me to propose a modified formulation of the Moiré function as shown in Figures 7a & 7b.
-
-[![Assignment_02][images-fig7a]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7a.png?)<br />
-
-where:
-
-[![Assignment_02][images-fig7b]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7b.png?)<br />
-Figure 7a. (Above) shows a modified equation for the emergence of Moiré patterns that includes a certain threshold that must be met before the pattern emerges. <br />
-Figure 7b. (Below) defines Big Theta of ρ in this equation as 1 or 0 depending whether or not ρmin has been met to create a Moiré pattern.
-
-[![Assignment_02][images-fig8]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig8.png?)<br />
-Figure 8. The disks on the <a href="https://youtube.com/shorts/h3N6dHqKTmk?feature=share">left</a> did not achieve Moiré while those on the <a href="https://youtube.com/shorts/N_jdyw0EP1k?feature=share">right</a> did.
-
-This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
-
+For future projects I’d like to explore responsive elements tied to real-time or streamed data, as well as other methods of converting large bodies of data around socially charged topics into symbolic representations for easier engagement. This project has laid the groundwork for future installations that invite sustained, embodied reflection on topics that are often too vast or diffuse to confront directly.
 
 <!-- Conclusion -->
 ## Conclusion
