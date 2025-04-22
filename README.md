@@ -103,7 +103,7 @@ Personal Website: https://nikaberle.carbonmade.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-This work is submitted as part of Assignment 2 for the VIZA 626 course at Texas A&M University, under the instruction of Professor You-Jin Kim, during the Spring 2025 semester.
+This work is submitted as part of Assignment 3 for the VIZA 626 course at Texas A&M University, under the instruction of Professor You-Jin Kim, during the Spring 2025 semester.
 
 VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.google.com/view/viza626/home)
 
