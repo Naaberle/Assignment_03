@@ -73,7 +73,7 @@ Figure 4. Real data from April 2024. OuterSpokeCount set to 8 represents 8% of t
 The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
 
 [![Assignment_03][images-fig5]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig5.png?)
-Figure 5. The final representational sculpture for April 2024.
+Figure 5. The final representational sculpture for April 2024. To calculate spire height I assigned the month with the most deaths (January) to 8" and the month with the fewest deaths (October) to 3", and mapped the rest of the months to their corresponding values within that range. April had the second lowest deaths of 2024.
 
 I deliberately avoided using overt graphing or labeling, as the intent was to present the data in a form that emphasized presence over explanation, in line with the symbolic representation definition. After the final geometry for each month was generated it was baked in Rhino and 3D printed.
 
