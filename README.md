@@ -79,7 +79,8 @@ I deliberately avoided using overt graphing or labeling, as the intent was to pr
 
 The last step was to create a base design that allowed me to mount a battery pack and 6v 5rpm turntable motor in it to mount each upper part to. The outer ring mounts to the base with 8 alignment pins and ensures the inner ring can rotate freely when the motor is powered. A 3” LED puck is then placed in the center and the sculpture is ready to be installed along the other 11.
 
-Figure 6. Images of the battery pack and motor alignment roughs
+[![Assignment_03][images-fig6]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig6.png?)
+Figure 6. First pass at the battery mount (left), first pass at motor centering (second from left), final battery mount in base (second from right), final motor mount in base (right).
 
 When all 12 are placed in proximity to one another, walking between them and engaging with the shadows places you amidst all of the loss due to mass shootings in 2024. 
 
