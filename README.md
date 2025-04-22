@@ -62,15 +62,18 @@ The heights of the sculptures are reflective of the total number of deaths in ea
 
 The number of vertical pillars on each inner ring corresponds to the ratio of deaths in that month to total deaths in 2024, and the rotational value of the twisted spokes is total wounded for that month compared to total wounded and normalized to a rotational value of 180.
 
-Figure 3. Inner Pillar and verticals next to input fields
+[![Assignment_03][images-fig3]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig3.png?)
+Figure 3. Real data from April 2024. InnerSpokeCount set to 6 represents 6% of the deaths from 2024 being in April. The InnerTwist set to 96 represents the number injured in April in relation to the total number injured and that number normalized to 0 - 180 degrees.
 
 The number of vertical pillars on each outer ring corresponds to the ratio of shootings in that month to total shootings in 2024, and the rotational value of the twisted spokes is the number of days without a shooting in that month and normalized to a rotational value of -180.
 
-Figure 4. Outer pillar and verticals next to input fields
+[![Assignment_03][images-fig4]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig4.png?)
+Figure 4. Real data from April 2024. OuterSpokeCount set to 8 represents 8% of the mass shootings from 2024 being in April. The OuterTwist set to -138 represents the number of days without shootings in April in relation to the total number of days in April and that ratio normalized to -180 to 0 degrees.
 
 The inner ring rotation being 0 - 180 and the outer ring rotation being -180 - 0 was an intentional design choice to amplify the shapes of the shadows.
 
-Figure 5. Image of the full test month.
+[![Assignment_03][images-fig5]](https://github.com/Naaberle/Assignment_03/blob/main/images/fig5.png?)
+Figure 5. The final representational sculpture for April 2024.
 
 I deliberately avoided using overt graphing or labeling, as the intent was to present the data in a form that emphasized presence over explanation, in line with the symbolic representation definition. After the final geometry for each month was generated it was baked in Rhino and 3D printed.
 
